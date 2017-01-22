@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "scripts": {
+    "webpackwatch" : "node_modules\\.bin\\webpack --watch",
+    "webpack": "cross-env NODE_ENV=development webpack --progress --hide-modules",
+    "dev": "cross-env NODE_ENV=development webpack --watch --progress --hide-modules",
+    "hmr": "cross-env NODE_ENV=development webpack-dev-server --inline --hot",
+    "production": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "jquery": "^3.1.0",
+    "laravel-mix": "^0.4.0",
+    "lodash": "^4.16.2",
+    "vue": "^2.0.1",
+    "vue-resource": "^1.0.3",
+    "webpack": "^2.2.0",
+    "dropzone": "4.3.0",
+    "cropperjs": "1.0.0-beta"
+  }
+}
